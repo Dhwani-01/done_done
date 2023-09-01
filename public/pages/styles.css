@@ -1,0 +1,155 @@
+.content{
+    background-color: rgb(156, 216, 216);
+}
+
+.row .g-3{
+   background-color: blue;
+}
+
+.form-control{
+    width:400px;
+   
+}
+img{
+    width: 1500px;
+}
+
+.blogcontainer{
+    color:white;
+   background-image: url("dark-gradient.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+.page{
+    color:white;
+    background-image: url("brain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-session{
+    color:black;
+    background-image: url("google-meet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-secondary {
+    color: #343a40;
+    background-color: #fff;
+    border-color: #6c757d;
+}
+.signup{
+    background-image: url("psychology.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+}
+.img-thumbnail {
+    padding: .25rem;
+    /* background-color: #d29292; */
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    height: 300px;
+    width: 400px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 100%;
+    word-wrap: break-word;
+    /*background-color: #fff;*/
+    background-image: url("images.jpeg");
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color:black;
+}
+
+
+.d-flex{
+    justify-content: center;
+}
+  
+  .column-about{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card-about{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container-about{
+    padding: 0 16px;
+  }
+  
+  .container-about::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title-about {
+    color: grey;
+  }
+  
+  .button-about {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button-about:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column-about {
+      width: 100%;
+      display: block;
+    }
+  }
+.row g-0{
+    background-color: aqua;
+    font-size: medium;
+}
+
+.card1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 100%;
+    word-wrap: break-word;
+    /*background-color: #fff;*/
+    background-image: url("images1.jpeg");
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color:black;
+}
+
